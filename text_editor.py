@@ -24,8 +24,7 @@ def redo():
         undo_stack.append(redo_stack[-1])
         # n = len(redo_stack)
         # print(n)
-        # print(redo_stack[len(redo_stack)-1])
-        # print("redo stack: ", redo_stack)
+        # print(redo_stack[len(redo_stack)-1]
         redo_stack.pop()
         undo_s = " ".join(undo_stack)
         print("text: ", undo_s)
